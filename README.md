@@ -1,7 +1,6 @@
 # reto-11
 # 1. Desarrolle un programa que permita realizar la suma/resta de matrices. El programa debe validar las condiciones necesarias para ejecutar la operación.
 ´´´pseudocode
-
 def Matriz(filas,columnas): # primera funcion la cual se utilizara para crear las matrices.
     matriz=[] # lista de nombre matriz vacia.
     for i in range (0,filas): # para i en el rango de 0 hasta las filas que hallan
@@ -21,9 +20,7 @@ def sumaMatrices(columnas,filas,Matri1, Matriz2): #funcion de la suma de matrice
             fila.append(sumador) # adiciona a la lista vacia de fila el resultado 
         suma.append(fila) # adiciona fila a la lista vacia suma ya antes declarada
     return(suma) # retorna suma
-
-
-if __name__ =="__main__":
+ if __name__ =="__main__":
     filas=int(input( "Diga la cantidad de filas: ")) # cantidad de filas
     columnas=int(input( "Diga la cantidad de columnas: ")) # cantidad de columnas
     print( "Introduzca los valores por fila para la matriz") #valores 
